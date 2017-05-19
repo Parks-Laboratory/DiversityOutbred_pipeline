@@ -167,5 +167,5 @@ if __name__ == '__main__':
 					print("Insert " + str(index) + " was successful!")
 
 	cursor.commit()
-	print("File Read Done!")
+	print("File Read Done!" + str(fileName))
 	cnxn.close()	
