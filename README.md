@@ -50,7 +50,7 @@ built on (SNPName, SampleID)
 
 #### Populate_mapping.py
 The command line argument is run similar to the one above but we change the .py file name
-For the .txt file formats, the format differs from the one used to populate Genotype_Calls table, which is shown below:
+For the .txt file formats, the format differs from the dataset used to populate the Genotype_Calls table and is included in "Mapping Dataset.txt" and the format is shown below:
 ```
 "marker"  "chr" "pos"	"cM"  "A1"	"A2"	"type"	"is.MM"	"unique"	"is.biallelic"	"tier"	"rsID"	"seq.A"	"seq.B"	"haploChrM"	"haploChrY"
 "UNC16386"	"UNC16386"	"1"	4.446737	0.0663498428074156	"A"	"G"	"haplotype_discrimination"	TRUE	TRUE	TRUE	1	"rs51852623"	"ACCTGTAGACAGCATGCAGTTGAGTATTAGATTCACTCAGTCATTGTCTG"	NA	FALSE	FALSE
